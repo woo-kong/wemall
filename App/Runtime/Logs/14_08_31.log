@@ -1,0 +1,56 @@
+[ 2014-08-31T11:40:41+08:00 ] 113.195.155.24 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.017371s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.017276s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.017474s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.016613s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.017145s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.016644s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.017517s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.016681s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.017594s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.016772s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-08-31T11:41:32+08:00 ] 113.195.155.24 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020155s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019602s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020094s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019602s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020117s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019511s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020278s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.019477s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020683s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.019859s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+

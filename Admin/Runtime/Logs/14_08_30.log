@@ -1,0 +1,734 @@
+[ 2014-08-30T02:37:39+08:00 ] 171.35.157.92 /wmall/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030711s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-08-30T02:37:44+08:00 ] 171.35.157.92 /wmall/admin.php/Orders/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.019985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_orders` LIMIT 1   [ RunTime:0.019228s ]
+SQL: SELECT * FROM `wemall_orders` LIMIT 0,10   [ RunTime:0.019221s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019645s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019181s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.019542s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019046s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019313s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019258s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019148s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019373s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019302s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019388s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019364s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019235s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019114s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019126s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Runtime/Cache/eeaf8f76cdcf469b94785ff0c87b2d59.php 第 236 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2014-08-30T02:38:01+08:00 ] 171.35.157.92 /wmall/admin.php/Users/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_users` LIMIT 1   [ RunTime:0.019885s ]
+SQL: SELECT * FROM `wemall_users` LIMIT 0,12   [ RunTime:0.019797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000236s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-08-30T02:38:05+08:00 ] 171.35.157.92 /wmall/admin.php/Yun/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000284s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-08-30T02:38:29+08:00 ] 171.35.157.92 /wmall/admin.php/Yun/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000229s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-08-30T02:38:32+08:00 ] 171.35.157.92 /wmall/admin.php/Yun/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007216s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000243s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2014-08-30T02:58:41+08:00 ] 171.35.157.92 /wmall/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-08-30T02:58:46+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.018651s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.018126s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2014-08-30T02:59:04+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.020036s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /wukun/www/wemall/Admin/Lib/Action/WeixinAction.class.php 第 31 行.
+SQL: REPLACE INTO `wemall_weixin` (`title`,`description`,`picurl`,`id`) VALUES ('欢迎来到微信商城','欢迎来到微信商城，关注微信号:iwemall','538d80973f66e.jpg',1) [ RunTime:0.019970s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000238s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2014-08-30T02:59:06+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.018502s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.017865s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000283s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-08-30T03:01:19+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.018049s ]
+NOTIC: [8] Use of undefined constant savename - assumed 'savename' /wukun/www/wemall/Admin/Lib/Action/WeixinAction.class.php 第 31 行.
+SQL: REPLACE INTO `wemall_weixin` (`title`,`description`,`picurl`,`id`) VALUES ('欢迎来到微信商城','欢迎来到微信商城，关注微信号:iwemall','5400cdffa6c47.jpg',1) [ RunTime:0.017833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2014-08-30T03:01:21+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.019797s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.018895s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000242s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-08-30T03:03:38+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.019101s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.018503s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009738s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000232s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-08-30T03:03:41+08:00 ] 171.35.157.92 /wmall/admin.php/Group/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018963s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018471s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000232s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000161s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-08-30T03:03:44+08:00 ] 171.35.157.92 /wmall/admin.php/Group/theme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010744s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000253s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2014-08-30T03:03:46+08:00 ] 171.35.157.92 /wmall/admin.php/Group/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018244s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.017785s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009261s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000283s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-08-30T03:05:11+08:00 ] 171.35.157.92 /wmall/admin.php/Group/mallset
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018359s ]
+SQL: REPLACE INTO `wemall_info` (`id`,`title`,`gonggao`) VALUES (1,'欢迎来到悟空商店','好喝的不得了...') [ RunTime:0.018385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005939s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2014-08-30T03:05:12+08:00 ] 171.35.157.92 /wmall/admin.php/Group/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018363s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.017751s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2014-08-30T03:05:15+08:00 ] 171.35.157.92 /wmall/admin.php/Group/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020030s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019424s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008559s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2014-08-30T03:05:15+08:00 ] 171.35.157.92 /wmall/admin.php/Group/theme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009823s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000299s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2014-08-30T03:05:17+08:00 ] 171.35.157.92 /wmall/admin.php/Group/payonline
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2014-08-30T03:05:20+08:00 ] 171.35.157.92 /wmall/admin.php/Group/setemail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.021176s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.020405s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-08-30T03:05:50+08:00 ] 171.35.157.92 /wmall/admin.php/Group/setemail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.020187s ]
+SQL: REPLACE INTO `wemall_mail` (`smtp`,`username`,`password`,`on`,`id`) VALUES ('smtp.163.com','wukun.kevin@163.com','ent5rm5',1,1) [ RunTime:0.020369s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2014-08-30T03:05:52+08:00 ] 171.35.157.92 /wmall/admin.php/Group/setemail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.017670s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.017138s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2014-08-30T15:40:08+08:00 ] 171.35.157.92 /wmall/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013839s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001242s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2014-08-30T15:40:14+08:00 ] 171.35.157.92 /wmall/admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `wemall_admin` [ RunTime:0.018481s ]
+SQL: SELECT * FROM `wemall_admin` WHERE ( `username` = 'wukun' ) AND ( `password` = 'a33e4352b52a12a69a0367b6ea09c286' )  [ RunTime:0.017855s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-08-30T15:40:15+08:00 ] 171.35.157.92 /wmall/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007889s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000253s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-08-30T15:40:19+08:00 ] 171.35.157.92 /wmall/admin.php/Users/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_users` LIMIT 1   [ RunTime:0.020155s ]
+SQL: SELECT * FROM `wemall_users` LIMIT 0,12   [ RunTime:0.019995s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020437s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-08-30T15:40:23+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.019164s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.018581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-08-30T15:40:24+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.021000s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.020090s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000289s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-08-30T16:24:58+08:00 ] 171.35.157.92 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.020515s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.019847s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011194s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2014-08-30T19:54:02+08:00 ] 58.17.98.150 /wmall/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008960s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000295s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000270s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2014-08-30T19:59:57+08:00 ] 58.17.98.150 /wmall/admin.php/Weixin/replay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `wemall_weixin` [ RunTime:0.019190s ]
+SQL: SELECT * FROM `wemall_weixin` WHERE ( `id` = 1 )  [ RunTime:0.018728s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009744s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000236s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+

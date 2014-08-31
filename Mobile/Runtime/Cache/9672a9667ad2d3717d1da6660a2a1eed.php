@@ -1,0 +1,190 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台管理</title>
+<meta name="viewport"
+	content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script src="../Public/Static/jquery.min.js" type="text/javascript"></script>
+<script src="../Public/Static/alert.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../Public/Static/foods.css">
+<script type="text/javascript">
+var appurl = '__APP__';
+</script>
+</head>
+<body>
+	<div class="menu_header">
+		<div class="menu_topbar">
+			<div id="menu" class="sort ">
+				<a href="">WeMall后台管理</a>
+			</div>
+		</div>
+	</div>
+	<div id="logincpanel"
+		style="display: block; text-align: center; margin: 0 auto;">
+		<img src="../Public/Static/logo.png"
+			style="width: 80%; padding: 60px 0px 20px 0px;">
+		<div class="cardcenter">
+			<div class="cardexplain">
+				<ul>
+					<div class="footReturn" id="footReturn">
+						<div id="ui-input-text">
+							<input type="text" class="ui-input-text" id="username"
+								placeholder="请输入用户名"> <input type="password"
+								class="ui-input-text" id="password" placeholder="请输入密码">
+							<div style="margin: 10px 0">
+								<a id="showcard" class="submit" href="javascript:doLogin();">登
+									录</a>
+							</div>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="cpanel" style="display: none;">
+		<div id="goodscpanel" style="display: none;">
+			<div class="cardexplain" style="padding-top: 40px;">
+				<ul class="round">
+					<li class="title"><a href="javascript:void(0);"><span>商品管理</span></a></li>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" class="cpbiaoge" style="padding-bottom: 60px;">
+						<tbody>
+							<tr>
+								<th>商品名称</th>
+								<th width="70" class="cc">商品价格</th>
+								<th width="55" class="cc">商品操作</th>
+							</tr>
+							<?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$goodsvo): $mod = ($i % 2 );++$i;?><tr>
+								<td>
+									<?php echo ($goodsvo["title"]); ?>
+								</td>
+								<td class="cc">
+									<?php echo ($goodsvo["price"]); ?>元
+								</td>
+								<td class="cc"><a
+									href="javascript:doProduct(<?php echo ($goodsvo["id"]); ?>,<?php echo ($goodsvo["status"]); ?>);"
+									id="<?php echo ($goodsvo["id"]); ?>"><em
+										class='<?php if($goodsvo["status"] == 1 ): ?>ok<?php else: ?>no<?php endif; ?>'>
+											<?php if($goodsvo["status"] == 0 ): ?>上架<?php else: ?>下架<?php endif; ?>
+									</em></a></td>
+							</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+						</tbody>
+					</table>
+				</ul>
+			</div>
+		</div>
+
+		<div id="orderscpanel" style="display: block;">
+			<div class="cardexplain" style="padding-top: 40px;">
+				<ul class="round">
+					<li class="title"><a href="javascript:void(0);"><span>订单管理</span></a></li>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0"
+						class="cpbiaoge">
+						<tbody>
+							<tr>
+								<th>订单编号</th>
+								<th width="70" class="cc">订单金额</th>
+								<th width="55" class="cc">订单详情</th>
+							</tr>
+							<?php if(is_array($orders)): $i = 0; $__LIST__ = $orders;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ordersvo): $mod = ($i % 2 );++$i;?><tr>
+								<td>
+									<?php echo ($ordersvo["orderid"]); ?>
+								</td>
+								<td class="cc">
+									<?php echo ($ordersvo["totalprice"]); ?>元
+								</td>
+								<td class="cc"><a
+									href="javascript:fetchdetail('<?php echo ($ordersvo["orderid"]); ?>');"><em
+										class="ok">更多</em></a></td>
+							</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+						</tbody>
+					</table>
+				</ul>
+			</div>
+		</div>
+
+		<div id="ordersdetailcpanel" style="display: none;">
+			<div class="cardexplain"
+				style="padding-top: 40px; padding-bottom: 60px;">
+				<ul class="round">
+					<li class="title"><span class="none smallspan">订单详情</span></li>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0"
+						class="cpbiaoge">
+						<tbody id="orderlist">
+							<tr>
+								<th>商品名称</th>
+								<th class="cc">单价</th>
+								<th class="cc">购买份数</th>
+								<th class="rr">价格</th>
+							</tr>
+
+							<tr id="trtotal">
+								<td>总计：</td>
+								<td></td>
+								<td></td>
+								<td class="rr">￥<span id="totalprice"></span></td>
+							</tr>
+						</tbody>
+					</table>
+				</ul>
+
+				<ul class="round">
+					<li class="title"><span class="none smallspan">订单信息</span></li>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0"
+						class="cpbiaoge">
+						<tbody>
+							<tr>
+								<td width="70">订单编号： <span id="orderid"></span></td>
+							</tr>
+							<tr>
+								<td>下单时间：<span id="time"></span></td>
+							</tr>
+							<tr>
+								<td>联系人 ： <span id="username2"></span></td>
+							</tr>
+							<tr>
+								<td>联系电话 ： <span id="phone"></span></td>
+							</tr>
+							<tr>
+								<td>地址 ：<span id="address"></span></td>
+							</tr>
+							<tr>
+								<td>备注 ：<span id="note"></span></td>
+							</tr>
+							<tr>
+								<td>订单状态：<em style="width: 70px;" class="no" id="orders_status"></em></td>
+							</tr>
+							<tr>
+								<td>付款状态：<em style="width: 70px;" class="no"
+									id="pay_status"></em></td>
+							</tr>
+							<tr>
+								<td>打印状态：<em style="width: 70px;" class="no"
+									id="print_status"></em></td>
+							</tr>							
+						</tbody>
+					</table>
+				</ul>
+			</div>
+
+		</div>
+		<div class="footermenu">
+			<ul>
+				<li id="ordersmanage"><a class="active" href="javascript:void(0);">
+						<img src="../Public/Static/orders.png">
+						<p>订单管理</p>
+				</a></li>
+
+				<li id="productmanage"><a href="javascript:void(0);"> <img
+						src="../Public/Static/goods.png">
+						<p>商品管理</p>
+				</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="../Public/Static/admin.js" type="text/javascript"></script>
+</body>
+</html>

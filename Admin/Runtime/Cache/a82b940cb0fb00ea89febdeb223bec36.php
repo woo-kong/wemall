@@ -1,0 +1,511 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>WeMall微商城后台管理中心</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<meta name="MobileOptimized" content="320">
+<link
+	href="__PUBLIC__/Style/plugins/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/plugins/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/plugins/uniform/css/uniform.default.css"
+	rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/plugins/gritter/css/jquery.gritter.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="__PUBLIC__/Style/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="__PUBLIC__/Style/plugins/fullcalendar/fullcalendar/fullcalendar.css"
+	rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/plugins/jqvmap/jqvmap/jqvmap.css"
+	rel="stylesheet" type="text/css" />
+<link
+	href="__PUBLIC__/Style/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css"
+	rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/css/style-metronic.css" rel="stylesheet"
+	type="text/css" />
+<link href="__PUBLIC__/Style/css/style.css" rel="stylesheet"
+	type="text/css" />
+<link href="__PUBLIC__/Style/css/style-responsive.css" rel="stylesheet"
+	type="text/css" />
+<link href="__PUBLIC__/Style/css/plugins.css" rel="stylesheet"
+	type="text/css" />
+<link href="__PUBLIC__/Style/css/pages/tasks.css" rel="stylesheet"
+	type="text/css" />
+<link href="__PUBLIC__/Style/css/themes/default.css" rel="stylesheet"
+	type="text/css" id="style_color" />
+<link href="__PUBLIC__/Style/css/custom.css" rel="stylesheet"
+	type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<!-- 引入umeditor -->
+<link href="__PUBLIC__/Plug-in/umeditor/themes/default/css/umeditor.css"
+	type="text/css" rel="stylesheet">
+<script type="text/javascript"
+	src="__PUBLIC__/Plug-in/umeditor/third-party/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8"
+	src="__PUBLIC__/Plug-in/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8"
+	src="__PUBLIC__/Plug-in/umeditor/umeditor.min.js"></script>
+<script type="text/javascript"
+	src="__PUBLIC__/Plug-in/umeditor/lang/zh-cn/zh-cn.js"></script>
+<!-- 引入umeditor结束 -->
+</head>
+<body class="page-header-fixed">
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+		<div class="header-inner">
+			<a class="navbar-brand" href="__APP__/Index/index" style="padding-left: 20px;"><font
+				color="#FFFFFF">We</font><font color="#72C1AC">Mall</font> </a>
+			<a href="javascript:;" class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse"> <img
+				src="__PUBLIC__/Style/img/menu-toggler.png" alt="" />
+			</a>
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown user"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown" data-hover="dropdown"
+					data-close-others="true"> <span class="username">Admin</span> <i
+						class="fa fa-angle-down"></i>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a href="javascript:;" id="trigger_fullscreen"><i
+								class="fa fa-move"></i> 全屏</a></li>
+						<li><a href="__APP__/Login/logout"><i class="fa fa-key"></i>
+								退出</a></li>
+					</ul></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="page-container">
+		<div class="page-sidebar navbar-collapse collapse">
+			<ul class="page-sidebar-menu">
+				<li>
+					<div class="sidebar-toggler hidden-phone"></div>
+				</li>
+
+				<li class=""><a href="javascript:;"> <i class="fa fa-home"></i>
+						<span class="title">全局</span> <span class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li><a href="__APP__/Group/index"> 商城设置</a></li>
+						<li><a href="__APP__/Group/theme"> 主题设置</a></li>
+						<li><a href="__APP__/Group/payonline"> 在线支付</a></li>
+						<li><a href="__APP__/Group/setemail"> 邮件设置</a></li>
+					</ul></li>
+
+				<li class="active"><a href="javascript:;"> <i class="fa fa-truck"></i>
+						<span class="title">商品</span> <span class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li class="active"><a href="__APP__/Goods/index"> 商品管理</a></li>
+						<li><a href="__APP__/Goods/menu"> 商品分类</a></li>
+					</ul></li>
+				<li class=""><a href="javascript:;"> <i class="fa fa-list"></i>
+						<span class="title">订单</span> <span class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li><a href="__APP__/Orders/index"> 订单管理</a></li>
+					</ul></li>
+				<li class=""><a href="javascript:;"> <i
+						class="fa fa-sitemap"></i> <span class="title">微信</span> <span
+						class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li><a href="__APP__/Weixin/replay"> 微信初始化</a></li>
+					</ul></li>
+				<li class=""><a href="javascript:;"> <i class="fa fa-user"></i>
+						<span class="title">用户</span> <span class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li><a href="__APP__/Users/index"> 用户管理</a></li>
+					</ul></li>
+
+				<li class=""><a href="javascript:;"> <i class="fa fa-cloud"></i>
+						<span class="title">云商店</span> <span class="arrow "></span>
+				</a>
+					<ul class="sub-menu">
+						<li><a href="__APP__/Yun/index">主题</a></li>
+						<li><a href="__APP__/Yun/plugin">插件</a></li>
+					</ul></li>
+			</ul>
+		</div>
+		<div class="page-content">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="page-title">商品设置</h3>
+					<ul class="page-breadcrumb breadcrumb">
+						<li><i class="fa fa-home"></i> <a href="">首页</a> <i
+							class="fa fa-angle-right"></i></li>
+						<li><a href="#">商品管理</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="portlet box light-grey">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-globe"></i>商品管理
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse"></a> <a
+									href="#portlet-config" data-toggle="modal" class="config"></a>
+								<a href="javascript:;" class="reload"></a> <a
+									href="javascript:;" class="remove"></a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<div class="table-toolbar">
+								<div class="btn-group">
+									<button id="sample_editable_1_new" class="btn green">
+										新增商品 <i class="fa fa-plus"></i>
+									</button>
+								</div>
+								<div class="btn-group pull-right">
+									<button class="btn dropdown-toggle" data-toggle="dropdown">
+										工具 <i class="fa fa-angle-down"></i>
+									</button>
+									<ul class="dropdown-menu pull-right">
+										<li><a href="#">输出Excel</a></li>
+									</ul>
+								</div>
+							</div>
+							<div id="sample_1_wrapper" class="dataTables_wrapper form-inline"
+								role="grid">
+								<div class="table-scrollable">
+									<table
+										class="table table-striped table-bordered table-hover dataTable"
+										id="sample_1" aria-describedby="sample_1_info">
+										<thead>
+											<tr role="row">
+												<th class="table-checkbox sorting_disabled"
+													role="columnheader" rowspan="1" colspan="1" aria-label=""
+													style="width: 20px;"><div class="checker">
+														<span><input type="checkbox"
+															class="group-checkable" data-set="#sample_1 .checkboxes"></span>
+													</div></th>
+												<th class="sorting" role="columnheader" tabindex="0"
+													aria-controls="sample_1" rowspan="1" colspan="1"
+													aria-label="Username: activate to sort column ascending"
+													style="width: 251px;">商品名称</th>
+												<th class="sorting_disabled" role="columnheader" rowspan="1"
+													colspan="1" aria-label="Email" style="width: 464px;">分类</th>
+												<th class="sorting" role="columnheader" tabindex="0"
+													aria-controls="sample_1" rowspan="1" colspan="1"
+													aria-label="Points: activate to sort column ascending"
+													style="width: 204px;">商品价格</th>
+												<th class="sorting_disabled" role="columnheader" rowspan="1"
+													colspan="1" aria-label="Joined" style="width: 299px;">商品状态</th>
+												<th class="sorting_disabled" role="columnheader" rowspan="1"
+													colspan="1" aria-label="&amp;nbsp;" style="width: 250px;">操作</th>
+											</tr>
+										</thead>
+
+										<tbody role="alert" aria-live="polite" aria-relevant="all">
+											<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="gradeX even">
+												<td class=" sorting_1"><div class="checker">
+														<span><input type="checkbox" class="checkboxes"
+															value="1"></span>
+													</div></td>
+												<td class=" "><?php echo ($vo["title"]); ?></td>
+												<td class=" "><?php echo ($vo["menu_id"]); ?></td>
+												<td class=" "><?php echo ($vo["price"]); ?></td>
+												<td class=" "><?php echo ($vo["status"]); ?></td>
+												<td class=" ">
+													<span class="label label-success do" label="<?php echo ($vo["id"]); ?>">操作</span>
+													<span class="label label-danger del" label="<?php echo ($vo["id"]); ?>">删除</span>
+												</td>
+											</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+										</tbody>
+									</table>
+								</div>
+								<div class="row">
+									<div class="col-md-5 col-sm-12"></div>
+									<div class="col-md-7 col-sm-12">
+										<div class="dataTables_paginate paging_bootstrap">
+											<?php echo ($page); ?></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 新增商品dialog -->
+	<div class="bootbox modal fade bootbox-prompt in" tabindex="-1"
+		role="dialog" aria-hidden="false" style="display: none;">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="bootbox-close-button close">
+						×</button>
+					<h4 class="modal-title">新增商品</h4>
+				</div>
+				<div class="modal-body">
+					<div class="portlet-body form">
+						<form class="form-horizontal" id="addgoods" role="form"
+							method="post" action="__APP__/Goods/addgoods"
+							enctype="multipart/form-data">
+							<div class="form-body">
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品名称</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control input-lg"
+											placeholder="请输入商品名称" name="goodname">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品价格</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control" placeholder="请输入商品价格"
+											name="goodprice">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品原价</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control input-sm"
+											placeholder="请输入商品原价" name="goodoldprice">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品分类</label>
+									<div class="col-md-9">
+										<select class="form-control input-lg" name="goodmenu">
+											<?php if(is_array($menu)): foreach($menu as $key=>$vo): ?><option value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["value"]); ?></option><?php endforeach; endif; ?>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品排序</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control input-sm"
+											placeholder="请输入商品序号" name="goodsort">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="exampleInputFile" class="col-md-3 control-label">商品图片</label>
+									<div class="col-md-9">
+										<input multiple="multiple" class="btn btn-default" type="file"
+											name="goodimage">
+										<p class="help-block">允许的附件文件类型: jpg,gif,png,jpeg
+											并且图片大小小于200k.</p>
+<!-- 										<img src="javascript:void(0)" id="goodsrc"
+											class="img-thumbnail"></img> -->
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品状态</label>
+									<div class="col-md-9">
+										<select class="form-control input-lg" name="goodstatus">
+											<option value="1">上架</option>
+											<option value="0">下架</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-md-3 control-label">商品详情</label>
+									<div style="padding-top: 50px; padding-left: 66px;">
+										<!-- 引入umeditor -->
+										<!--style给定宽度可以影响编辑器的最终宽度-->
+										<script type="text/plain" id="myEditor"
+											style="width: 450px; height: 240px;">
+										</script>
+										<script type="text/javascript">
+											//实例化编辑器
+											var um = UM.getEditor('myEditor');
+										</script>
+									</div>
+
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button data-bb-handler="cancel" type="button"
+						class="btn btn-default">取消</button>
+					<button data-bb-handler="confirm" type="button"
+						class="btn btn-primary" id="submit">提交</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-inner">2014 &copy; Powered by WeMall .</div>
+		<div class="footer-tools">
+			<span class="go-top"> <i class="fa fa-angle-up"></i>
+			</span>
+		</div>
+	</div>
+	<script src="__PUBLIC__/Style/plugins/jquery-1.10.2.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jquery-migrate-1.2.1.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/bootstrap/js/bootstrap.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jquery-slimscroll/jquery.slimscroll.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jquery.blockui.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jquery.cookie.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/uniform/jquery.uniform.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/jquery.vmap.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/flot/jquery.flot.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/flot/jquery.flot.resize.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jquery.pulsate.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/bootstrap-daterangepicker/moment.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/bootstrap-daterangepicker/daterangepicker.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/gritter/js/jquery.gritter.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/fullcalendar/fullcalendar/fullcalendar.min.js"
+		type="text/javascript"></script>
+	<script
+		src="__PUBLIC__/Style/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/plugins/jquery.sparkline.min.js"
+		type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/scripts/app.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/scripts/index.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/Style/scripts/tasks.js" type="text/javascript"></script>
+	<script>
+		jQuery(document).ready(function() {
+			App.init(); // initlayout and core plugins
+
+			$('#sample_editable_1_new').on("click", function() {
+				$('div[role="dialog"]').show();
+			});
+			$('.modal-footer').find('button').first().on("click",function() {
+				$('div[role="dialog"]').hide();
+				$('input[name="goodname"]').val("");
+				$('input[name="goodprice"]').val("");
+				$('input[name="goodoldprice"]').val("");
+				$('select[name="goodmenu"]').val("1");
+				$('input[name="goodsort"]').val("");
+				if ($('#goodsrc')) {
+					$('#goodsrc').remove();
+				}
+				$('.modal-title').html("新增商品");
+				$('select[name="goodstatus"]').val("1");
+				$('#myEditor').html("");
+			});
+			$('.modal-header').find('button').on("click",function() {
+				$('div[role="dialog"]').hide();
+				$('input[name="goodname"]').val("");
+				$('input[name="goodprice"]').val("");
+				$('input[name="goodoldprice"]').val("");
+				$('select[name="goodmenu"]').val("1");
+				$('input[name="goodsort"]').val("");
+				if ($('#goodsrc')) {
+					$('#goodsrc').remove();
+				}
+				$('.modal-title').html("新增商品");
+				$('select[name="goodstatus"]').val("1");
+				$('#myEditor').html("");
+			});
+			$('#submit').on("click", function() {
+				$('#addgoods').submit();
+
+				$('input[name="goodname"]').val("");
+				$('input[name="goodprice"]').val("");
+				$('input[name="goodoldprice"]').val("");
+				$('select[name="goodmenu"]').val("1");
+				$('input[name="goodsort"]').val("");
+				if ($('#goodsrc')) {
+					$('#goodsrc').remove();
+				}
+				$('.modal-title').html("新增商品");
+				$('select[name="goodstatus"]').val("1");
+				$('#myEditor').html("");
+			});
+			$('.label.label-success.do').on("click",function() {
+				var id = $(this).attr("label");
+				$.ajax({
+					type : 'post',
+					url : '__APP__/Goods/getregoods',
+					data : {
+						id : id
+					},
+					success : function(response,status,xhr) {
+						var json = $.parseJSON(response);
+
+						$('div[role="dialog"]').show();
+						$('.modal-title').html("更新商品");
+						$('input[name="goodname"]').val(json[0].title);
+						$('input[name="goodprice"]').val(json[0].price);
+						$('input[name="goodoldprice"]').val(json[0].old_price);
+						$('select[name="goodmenu"]').val(json[0].menu_id);
+						$('input[name="goodsort"]').val(json[0].sort);
+						$('select[name="goodstatus"]').val(json[0].status);
+						$('#myEditor').html(json[0].detail);
+						$('input[name="goodname"]').parent().append('<input type="hidden" name="goodid" value="'+json[0].id+'">');
+
+						$('input[name="goodimage"]').parent().append('<img src="__PUBLIC__/Uploads/'+json[0].image+'" id="goodsrc" class="img-thumbnail">');
+					}
+				});
+			});
+			$(".label.label-danger.del").on("click",function(){
+				var id = $(this).attr("label");
+				$.ajax({
+					type : 'post',
+					url : '__APP__/Goods/delgoods',
+					data : {
+						id : id
+					},
+					success : function(response,status,xhr) {
+						if(response == '1'){
+							location.reload();
+						}
+					}
+				});
+			});
+		});
+	</script>
+</body>
+</html>

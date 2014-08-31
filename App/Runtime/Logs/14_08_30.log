@@ -1,0 +1,1053 @@
+[ 2014-08-30T01:01:56+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.017462s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.016750s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.017335s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.016939s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.016672s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='7' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.016767s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.016647s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='6' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.016648s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.016640s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='5' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.016858s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.016656s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='4' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.016662s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.016657s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='3' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016975s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='2' )  [ RunTime:0.016691s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='2' ) 
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016861s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.016697s ]
+ERR: 1054:Unknown column 'orders_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wemall_users` WHERE ( 1=1 AND orders_id='1' ) 
+
+[ 2014-08-30T01:09:44+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.019757s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019163s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020164s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019165s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.019754s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019349s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020054s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.019451s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020378s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.019280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-08-30T01:10:30+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/fetchgoodsdetail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.019065s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( `id` = 1 )  [ RunTime:0.017989s ]
+
+[ 2014-08-30T01:10:41+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.017913s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.017109s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.017887s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.017103s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018120s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.017456s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.018412s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.017373s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.017744s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.017285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000224s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2014-08-30T02:33:40+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjvIUhW9b61fkYpIgOvrqsGc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.021356s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.020678s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.021074s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.020503s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.021334s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.020555s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.021176s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.020495s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020997s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjvIUhW9b61fkYpIgOvrqsGc' )  [ RunTime:0.020530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034885s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001018s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2014-08-30T02:33:41+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjvIUhW9b61fkYpIgOvrqsGc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.019139s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.018504s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.019036s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.018422s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.019179s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018683s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.019637s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.018608s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019146s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjvIUhW9b61fkYpIgOvrqsGc' )  [ RunTime:0.018518s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2014-08-30T02:33:43+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002204s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.019320s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.017912s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018469s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017728s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.018301s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.017696s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017725s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.017759s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017666s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.017693s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017791s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.017772s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017820s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.017718s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017702s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='2' )  [ RunTime:0.017739s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017662s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.017650s ]
+
+[ 2014-08-30T02:33:46+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.020079s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.019450s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019927s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019523s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.020109s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019474s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019316s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019600s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019430s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019251s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019247s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019381s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019326s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019410s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019258s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='2' )  [ RunTime:0.019363s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019547s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019329s ]
+
+[ 2014-08-30T02:33:51+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.017174s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.016500s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.017019s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016292s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.017390s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.016438s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016474s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.016611s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016476s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.016463s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016454s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.016364s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016474s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.016431s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016469s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='2' )  [ RunTime:0.016486s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016422s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.016359s ]
+
+[ 2014-08-30T02:34:06+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.020049s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.019197s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019869s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019202s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.019746s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019280s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019254s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019154s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019060s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019072s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019258s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019115s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019286s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019118s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019238s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019217s ]
+
+[ 2014-08-30T02:35:16+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.019804s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019774s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.019559s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019032s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.019724s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018952s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.019804s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.019006s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019545s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.019074s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2014-08-30T02:35:19+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.020539s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.019733s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020277s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019698s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.020425s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019717s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019734s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019755s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019800s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019644s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019825s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019719s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019808s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019673s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019732s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019715s ]
+
+[ 2014-08-30T02:35:27+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.020128s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.019572s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020326s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019540s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.020364s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019578s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019610s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019547s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019681s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019483s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019625s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019438s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019497s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019486s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019541s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019525s ]
+
+[ 2014-08-30T02:35:31+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.019294s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.017833s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018514s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017843s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.018676s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.017843s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017904s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.017935s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017907s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.017873s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017988s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.017900s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017829s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.017882s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017917s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.017924s ]
+
+[ 2014-08-30T02:35:59+08:00 ] 171.35.157.92 /wmall/shop.php?uid=sGc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.019638s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.018820s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.019276s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019087s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.019437s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018782s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.019467s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.018908s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019376s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'sGc' )  [ RunTime:0.018814s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011101s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2014-08-30T02:36:00+08:00 ] 171.35.157.92 /wmall/shop.php?uid=sGc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020284s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019539s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020178s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019444s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020181s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019549s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020225s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.019529s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019977s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'sGc' )  [ RunTime:0.019372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-08-30T02:36:03+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.020128s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.019319s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019891s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019276s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.019941s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.019246s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019268s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.019344s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019343s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.019271s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019201s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.019278s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.019280s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.019788s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.019451s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.019212s ]
+NOTIC: [8] Undefined variable: orders /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 108 行.
+
+[ 2014-08-30T02:36:23+08:00 ] 171.35.157.92 /wmall/shop.php?uid=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.019214s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.018693s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.019515s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.018496s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.019037s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018554s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.019223s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.018497s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019573s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.018747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000224s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-08-30T02:36:24+08:00 ] 171.35.157.92 /wmall/shop.php?uid=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.018574s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.017718s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.018499s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.017701s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018488s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.017821s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.018460s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.022079s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018384s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.017775s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2014-08-30T02:36:27+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.022759s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.021802s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.022268s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021810s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.022385s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.021816s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.021681s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.021577s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021645s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.021738s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021698s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.021718s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021929s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.021721s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.021746s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.021806s ]
+NOTIC: [8] Undefined variable: orders /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 108 行.
+
+[ 2014-08-30T02:36:37+08:00 ] 171.35.157.92 /wmall/shop.php?uid=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020405s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019585s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020357s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019782s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020450s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019805s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020584s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.019784s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020636s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.019878s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000261s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2014-08-30T02:36:38+08:00 ] 171.35.157.92 /wmall/shop.php?uid=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020889s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.020102s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.021058s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.020211s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.021195s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.020510s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.021467s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.020361s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020970s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.020512s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000273s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-08-30T02:36:48+08:00 ] 171.35.157.92 /wmall/shop.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.018659s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.018033s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.018476s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.018730s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.018196s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.018856s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.018085s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018676s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = null )  [ RunTime:0.018163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000270s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2014-08-30T02:36:49+08:00 ] 171.35.157.92 /wmall/shop.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020824s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.020023s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020749s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.020192s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020725s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.020016s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020562s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.020275s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020762s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = null )  [ RunTime:0.020126s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000230s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-08-30T02:36:52+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.019205s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 97 行.
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.018479s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018858s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018457s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.018961s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.018328s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.018240s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.018315s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018254s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.018439s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018401s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.018314s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018283s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.018304s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.018357s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.018293s ]
+NOTIC: [8] Undefined variable: orders /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 108 行.
+
+[ 2014-08-30T03:19:04+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.020556s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.019844s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.020292s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.019920s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.020429s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.019969s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.020893s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.020030s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020579s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.019926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000271s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000256s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-08-30T03:19:27+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/addorder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 116 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 117 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 120 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.020994s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.020283s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.021098s ]
+SQL: REPLACE INTO `wemall_orders` (`users_id`,`orderid`,`totalprice`,`pay_status`,`note`,`orders_status`,`print_status`,`time`) VALUES ('2','2014083003192629','9.00','未付款','','未处理','未打印','2014/08/30 03:19:26') [ RunTime:0.020633s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.021020s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.021064s ]
+SQL: INSERT INTO `wemall_ordersinfo` (`title`,`num`,`price`,`orders_id`) VALUES ('壮壮水牛奶',3,'3',8) [ RunTime:0.020121s ]
+SQL: UPDATE `wemall_users` SET `wx_id`='oKeupjlYwttoCaSSPyeNCk9ouEB4',`username`='哈哈',`phone`='',`address`='' WHERE ( `id` = 2 ) [ RunTime:0.020166s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.020954s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.020533s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.020384s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.022996s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.020179s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020160s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.020254s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.020403s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.020284s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020192s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.020070s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020253s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.020085s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020275s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.020523s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.020113s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.020414s ]
+NOTIC: [8] Use of undefined constant orderid - assumed 'orderid' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant totalprice - assumed 'totalprice' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant phone - assumed 'phone' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Undefined variable: detail /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.021063s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.020556s ]
+NOTIC: [8] Use of undefined constant on - assumed 'on' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 157 行.
+
+[ 2014-08-30T03:19:30+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.019726s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.018710s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.019446s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018541s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.019604s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.018436s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018572s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.018584s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.018613s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.018494s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018665s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.018614s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018624s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.018692s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.018615s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.018502s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.018805s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.018594s ]
+
+[ 2014-08-30T03:19:40+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.021412s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.020612s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.021713s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.020491s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.021124s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.020529s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.021792s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.020551s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.021321s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.020721s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010410s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000229s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2014-08-30T03:19:59+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/addorder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 116 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 117 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 120 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018787s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.017827s ]
+SQL: INSERT INTO `wemall_users` (`wx_id`,`username`,`phone`,`address`) VALUES ('','','','') [ RunTime:0.018467s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.018716s ]
+SQL: REPLACE INTO `wemall_orders` (`users_id`,`orderid`,`totalprice`,`pay_status`,`note`,`orders_status`,`print_status`,`time`) VALUES (3,'2014083003195897','12.00','未付款','','未处理','未打印','2014/08/30 03:19:58') [ RunTime:0.018157s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.018657s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.018498s ]
+SQL: INSERT INTO `wemall_ordersinfo` (`title`,`num`,`price`,`orders_id`) VALUES ('壮壮水牛奶',4,'3',9) [ RunTime:0.017726s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.018484s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.017817s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.017856s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.018067s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='9' )  [ RunTime:0.017706s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017725s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.017837s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017841s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.017935s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017857s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.017843s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017835s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.017801s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017867s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.017710s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.017836s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.017822s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.017976s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.017788s ]
+NOTIC: [8] Use of undefined constant orderid - assumed 'orderid' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant totalprice - assumed 'totalprice' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant phone - assumed 'phone' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Undefined variable: detail /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.018463s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.017943s ]
+NOTIC: [8] Use of undefined constant on - assumed 'on' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 157 行.
+
+[ 2014-08-30T03:20:08+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.017093s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 97 行.
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.016519s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.017139s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.016576s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.017132s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='9' )  [ RunTime:0.016482s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016413s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.016420s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016404s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.016429s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016448s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.016437s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016424s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.016354s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016406s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.016719s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.016637s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.016668s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.016436s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.016296s ]
+
+[ 2014-08-30T03:20:18+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/addorder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 116 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 117 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 120 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.022855s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = '' )  [ RunTime:0.021938s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.022713s ]
+SQL: REPLACE INTO `wemall_orders` (`users_id`,`orderid`,`totalprice`,`pay_status`,`note`,`orders_status`,`print_status`,`time`) VALUES ('3','2014083003201720','15.00','未付款','','未处理','未打印','2014/08/30 03:20:17') [ RunTime:0.022642s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.022600s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.022505s ]
+SQL: INSERT INTO `wemall_ordersinfo` (`title`,`num`,`price`,`orders_id`) VALUES ('壮壮水牛奶',5,'3',10) [ RunTime:0.021722s ]
+SQL: UPDATE `wemall_users` SET `wx_id`='',`username`='',`phone`='',`address`='' WHERE ( `id` = 3 ) [ RunTime:0.021667s ]
+NOTIC: [2048] Declaration of GroupAction::theme() should be compatible with Action::theme($theme) /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.022980s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.021755s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.021922s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.021798s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='10' )  [ RunTime:0.021952s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.021969s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='9' )  [ RunTime:0.021816s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021830s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.021832s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021879s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.021826s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.022026s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.021983s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.022016s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.021917s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021926s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.021971s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021896s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.021800s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.021750s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.021944s ]
+NOTIC: [8] Use of undefined constant orderid - assumed 'orderid' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant totalprice - assumed 'totalprice' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant phone - assumed 'phone' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Undefined variable: detail /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant ordersinfo - assumed 'ordersinfo' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wemall_mail` [ RunTime:0.022365s ]
+SQL: SELECT * FROM `wemall_mail` WHERE ( `id` = 1 )  [ RunTime:0.021832s ]
+NOTIC: [8] Use of undefined constant on - assumed 'on' /wukun/www/wemall/Admin/Lib/Action/GroupAction.class.php 第 157 行.
+
+[ 2014-08-30T03:20:20+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.022874s ]
+NOTIC: [8] Undefined index: uid /wukun/www/wemall/App/Lib/Action/InterfaceAction.class.php 第 97 行.
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.021952s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.022539s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.021994s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.022321s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='10' )  [ RunTime:0.021848s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.021745s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='9' )  [ RunTime:0.021781s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021625s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.021612s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021878s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.021851s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.021878s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.021666s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021662s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.021704s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021733s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.021740s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.021717s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.021649s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.021758s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.021588s ]
+
+[ 2014-08-30T09:34:27+08:00 ] 171.35.157.92 /wmall/shop.php/Interface/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `wemall_orders` [ RunTime:0.021698s ]
+SQL: SELECT * FROM `wemall_orders` ORDER BY id desc  [ RunTime:0.020502s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.021441s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.020501s ]
+SQL: SHOW COLUMNS FROM `wemall_ordersinfo` [ RunTime:0.021018s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='10' )  [ RunTime:0.020641s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.020489s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='9' )  [ RunTime:0.020372s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020384s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='8' )  [ RunTime:0.020952s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020457s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='7' )  [ RunTime:0.020472s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.020376s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='6' )  [ RunTime:0.020490s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020381s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='5' )  [ RunTime:0.020420s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020439s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='4' )  [ RunTime:0.020480s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.020604s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='3' )  [ RunTime:0.020407s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.020569s ]
+SQL: SELECT * FROM `wemall_ordersinfo` WHERE ( 1=1 AND orders_id='1' )  [ RunTime:0.020440s ]
+
+[ 2014-08-30T12:53:40+08:00 ] 171.35.157.92 /wmall/shop.php?uid=oKeupjlYwttoCaSSPyeNCk9ouEB4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `wemall_theme` [ RunTime:0.021451s ]
+SQL: SELECT * FROM `wemall_theme`  [ RunTime:0.020963s ]
+NOTIC: [8] Use of undefined constant theme - assumed 'theme' /wukun/www/wemall/App/Lib/Action/IndexAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.021742s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.020910s ]
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.021820s ]
+SQL: SELECT * FROM `wemall_info`  [ RunTime:0.020913s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.021874s ]
+SQL: SELECT * FROM `wemall_goods`  [ RunTime:0.021027s ]
+SQL: SHOW COLUMNS FROM `wemall_users` [ RunTime:0.021928s ]
+SQL: SELECT * FROM `wemall_users` WHERE ( `wx_id` = 'oKeupjlYwttoCaSSPyeNCk9ouEB4' )  [ RunTime:0.020981s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010421s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000255s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
